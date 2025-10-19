@@ -65,7 +65,6 @@ VITA_GLES_UnloadLibrary(_THIS)
     if (vgl_initialized)
     {
         vgl_initialized = 0;
-        vglEnd();
     }
     _this->gl_config.driver_loaded = 0;
 }
